@@ -62,7 +62,7 @@
                 console.log('You won! Rock beats Scissors!');
                 console.log(`Round: ${i} Score: Player: ${playerScore} Computer: ${computerScore}`);
             } else if (result == 'You won! Paper beats Rock!') {
-                ++playerScore;
+                playerScore += 1;
                 console.log('You won! Paper beats Rock!');
                 console.log(`Round: ${i} Score: Player: ${playerScore} Computer: ${computerScore}`);
             } else if (result == 'You won! Scissors beats Paper!') {
@@ -92,7 +92,7 @@
         } else {
             console.log('You lost to a computer!');
         }
-
+        
     }
 
 </script>
